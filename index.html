@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Prova de Extraordinário Saber - Desenvolvimento Web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Prova">
+    <meta name="author" content="Davi Calais Souza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/home.ico" alt="Icon from icons8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <title>Portfólio - Davi C. Souza</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#contato" class="nav-branding">DAVI CALAIS SOUZA</a>
+                <ul class="nav-menu">
+                    <li class="nav-link"><a href="#sobre">Sobre</a></li>
+                    <li class="nav-link"><a href="#trabalhos">Trabalhos</a></li>
+                    <li class="nav-link"><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="sobre">
+                <h1 class="sobre-header">Olá! Eu sou o Davi.</h1>
+                <h2 class="sobre-header"><span class="span-sobre"> </span></h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="trabalhos" class="trabalhos-section">
+        <h1 class="trabalhos-section-header" style="text-decoration: underline;">Meus Projetos</h1>
+
+        <div class="trabalhos-grid">
+            <a href="#" target="_blank" class="trabalho trabalho-tile" onClick="return false;">
+                <img class="trabalho-image" id="lorem" src="img/lorem.png" alt="trabalho" />
+                <p class="trabalho-title">
+                    Lorem Ipsum
+                </p>
+            </a>
+            <a href="curriculo.html" target="_blank" class="trabalho trabalho-tile">
+                <img class="trabalho-image" id="cv" src="img/curriculum.png" alt="trabalho" />
+                <p class="trabalho-title">
+                    Curricum Vitae
+                </p>
+            </a>
+            <a href="#" target="_blank" class="trabalho trabalho-tile" onClick="return false;">
+                <img class="trabalho-image" id="lorem2" src="img/lorem.png" alt="trabalho" />
+                <p class="trabalho-title">
+                    Lorem Ipsum
+                </p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="contato">
+                <img class="contato-image" src="img/cv.jpg" alt="Imagem CV" />
+                <h1 class="nome-contato">Davi Calais Souza</h1>
+                <p class="contato-texto">
+                    Eu sou um programador Python com conhecimento em diversas areas, desde Web Design até Analíse de
+                    Banco de dados. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non nulla vel erat
+                    vestibulum eleifend nec id nibh. Aenean dapibus commodo euismod.
+                </p>
+                <div class="redes">
+                    <a target="_blank" href="https://github.com/DaviCalais"><img class="image-redes" src="img/git.png" alt="Icone GitHub"></a>
+                    <a target="_blank" href="https://replit.com/@DaviCalais"><img class="image-redes" src="img/replit.png" alt="Icone Replit"></a>
+                    <a target="_blank" href="mailto:davicalais@gmail.com.br?subject=Contato Profissional"><img class="image-redes" src="img/mail.png" alt="O email ícones criados por IconMark - Flaticon"></a>
+                </div>
+
+            </div>
+    </section>
+
+    <footer>
+        <p>
+          Feito por: Davi Calais Souza.
+        </p>
+        <p>
+          &copy; 2023 Todos os direitos reservados.
+        </p>
+      </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
