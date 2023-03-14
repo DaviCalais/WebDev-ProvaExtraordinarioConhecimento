@@ -7,6 +7,7 @@
     }
 
     .nav-menu {
+	width: 100% !important;
         position: fixed;
         left: -115%;
         top: 5.9rem;
@@ -476,7 +477,7 @@
     }
 
     .contato-image {
-        width: 20rem;
+	width: 20rem;
         height: 20rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -547,7 +548,7 @@
     }
 
     .contato-image {
-        width: 23rem;
+	width: 23rem;
         height: 23rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -618,7 +619,7 @@
     }
 
     .contato-image {
-        width: 25rem;
+	width: 25rem;
         height: 25rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
