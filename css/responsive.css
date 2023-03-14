@@ -366,8 +366,8 @@
     }
 
     .contato-image {
-	widht: 40%;
-        height: 40%;
+	width: 20rem;
+        height: 20rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
@@ -437,7 +437,7 @@
     }
 
     .contato-image {
-	widht: 23rem;
+	width: 23rem;
         height: 23rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -508,7 +508,7 @@
     }
 
     .contato-image {
-	widht: 25rem;
+	width: 25rem;
         height: 25rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
