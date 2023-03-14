@@ -1,13 +1,9 @@
-/*Celulares Pequenos*/
-@media only screen and (min-width: 320px) and (max-width: 374px) {
+/*Fold <*/
+@media only screen and (min-width: 200px) and (max-width: 319px) {
 
     html,
     body {
         overflow-x: hidden !important;
-    }
-
-    header {
-        width: 20rem;
     }
 
     .nav-menu {
@@ -16,7 +12,7 @@
         top: 5.9rem;
         flex-direction: column;
         background-color: #222629;
-        width: 20rem;
+        width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
@@ -62,14 +58,122 @@
     }
 
     .contato {
-        width: 20rem;
         height: 55rem;
         /* border: 1px solid red; */
     }
 
     .trabalhos-section {
         padding: 8rem 1rem;
-        width: 18rem;
+    }
+
+    .trabalhos-grid {
+        grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+        grid-gap: 4rem;
+
+    }
+
+    .contato {
+        height: 55rem;
+    }
+
+    .image-redes {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 1rem 1.3rem 0 1.3rem;
+    }
+
+    .contato-image {
+        width: 13rem;
+        height: 13rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contato-texto {
+        line-height: 3rem;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        width: 80%;
+    }
+
+    h1.nome-contato {
+        font-size: 2rem;
+    }
+
+    footer>p {
+        line-break: normal;
+        font-size: 1rem;
+        margin: 1rem;
+        color: var(--text-color);
+    }
+}
+
+/*Celulares Pequenos*/
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+    html,
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .nav-menu {
+        width: 100% !important;
+        position: fixed;
+        left: -115%;
+        top: 5.9rem;
+        flex-direction: column;
+        background-color: #222629;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    a {
+        margin: 2.5rem 0;
+    }
+
+    a.nav-branding {
+        font-size: 1.1rem;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    h1.sobre-header {
+        font-size: 2.5rem;
+    }
+
+    h2.sobre-header {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .contato {
+        height: 55rem;
+        /* border: 1px solid red; */
+    }
+
+    .trabalhos-section {
+        padding: 8rem 1rem;
     }
 
     .trabalhos-grid {
@@ -77,10 +181,6 @@
         grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
         grid-gap: 4rem;
 
-    }
-
-    .container {
-        width: 20rem;
     }
 
     .contato {
@@ -104,15 +204,11 @@
         line-height: 3rem;
         margin-top: 2rem;
         font-size: 1.2rem;
-        width: 19rem;
+        width: 80%;
     }
 
     h1.nome-contato {
         font-size: 2.5rem;
-    }
-
-    footer {
-        width: 18rem;
     }
 
     footer>p {
@@ -131,17 +227,13 @@
         overflow-x: hidden !important;
     }
 
-    header {
-        width: 24rem;
-    }
-
     .nav-menu {
+        width: 100% !important;
         position: fixed;
         left: -115%;
         top: 5.9rem;
         flex-direction: column;
         background-color: #222629;
-        width: 24rem;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
@@ -183,25 +275,18 @@
 
 
     .contato {
-        width: 24rem;
         height: 55rem;
         /* border: 1px solid red; */
     }
 
     .trabalhos-section {
         padding: 8rem 1rem;
-        width: 22rem;
     }
 
     .trabalhos-grid {
-
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
         grid-gap: 4rem;
 
-    }
-
-    .container {
-        width: 24rem;
     }
 
     .contato {
@@ -225,15 +310,11 @@
         line-height: 3rem;
         margin-top: 2rem;
         font-size: 1.3rem;
-        width: 21rem;
+        width: 80%;
     }
 
     h1.nome-contato {
         font-size: 3rem;
-    }
-
-    footer {
-        width: 20rem;
     }
 
     footer>p {
@@ -251,17 +332,13 @@
         overflow-x: hidden !important;
     }
 
-    header {
-        width: 27rem;
-    }
-
     .nav-menu {
+        width: 100% !important;
         position: fixed;
         left: -115%;
         top: 5.9rem;
         flex-direction: column;
         background-color: #222629;
-        width: 27rem;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
@@ -306,23 +383,17 @@
     }
 
     .contato {
-        width: 27rem;
         height: 55rem;
         /* border: 1px solid red; */
     }
 
     .trabalhos-section {
         padding: 8rem 1rem;
-        width: 25rem;
     }
 
     .trabalhos-grid {
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
         grid-gap: 4rem;
-    }
-
-    .container {
-        width: 27rem;
     }
 
     .contato {
@@ -346,15 +417,11 @@
         line-height: 3rem;
         margin-top: 2rem;
         font-size: 1.3rem;
-        width: 24rem;
+        width: 80%;
     }
 
     h1.nome-contato {
         font-size: 3rem;
-    }
-
-    footer {
-        width: 23rem;
     }
 }
 
@@ -364,10 +431,6 @@
     html,
     body {
         overflow-x: hidden !important;
-    }
-
-    header {
-        width: 48rem;
     }
 
     a.nav-branding {
@@ -387,25 +450,19 @@
     }
 
     .contato {
-        width: 48rem;
         height: 55rem;
         /* border: 1px solid red; */
     }
 
     .trabalhos-section {
         padding: 8rem 1rem;
-        width: 46rem;
     }
 
     .trabalhos-grid {
 
-        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
         grid-gap: 4rem;
 
-    }
-
-    .container {
-        width: 48rem;
     }
 
     .contato {
@@ -429,15 +486,11 @@
         line-height: 3rem;
         margin-top: 2rem;
         font-size: 1.3rem;
-        width: 46rem;
+        width: 80%;
     }
 
     h1.nome-contato {
         font-size: 3rem;
-    }
-
-    footer {
-        width: 44rem;
     }
 
     footer>p {
@@ -455,10 +508,6 @@
         overflow-x: hidden !important;
     }
 
-    header {
-        width: 64rem;
-    }
-
     a.nav-branding {
         font-size: 2.5rem;
     }
@@ -472,14 +521,12 @@
     }
 
     .contato {
-        width: 64rem;
         height: 55rem;
         /* border: 1px solid red; */
     }
 
     .trabalhos-section {
         padding: 8rem 1rem;
-        width: 62rem;
     }
 
     .trabalhos-grid {
@@ -487,10 +534,6 @@
         grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
         grid-gap: 4rem;
 
-    }
-
-    .container {
-        width: 64rem;
     }
 
     .contato {
@@ -514,15 +557,11 @@
         line-height: 3rem;
         margin-top: 2rem;
         font-size: 1.5rem;
-        width: 59rem;
+        width: 80%;
     }
 
     h1.nome-contato {
         font-size: 4rem;
-    }
-
-    footer {
-        width: 60rem;
     }
 
     footer>p {
@@ -540,10 +579,6 @@
         overflow-x: hidden !important;
     }
 
-    header {
-        width: 90rem;
-    }
-
     a.nav-branding {
         font-size: 2.5rem;
     }
@@ -557,14 +592,12 @@
     }
 
     .contato {
-        width: 90rem;
         height: 55rem;
         /* border: 1px solid red; */
     }
 
     .trabalhos-section {
         padding: 8rem 1rem;
-        width: 88rem;
     }
 
     .trabalhos-grid {
@@ -572,10 +605,6 @@
         grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
         grid-gap: 4rem;
 
-    }
-
-    .container {
-        width: 90rem;
     }
 
     .contato {
@@ -599,15 +628,11 @@
         line-height: 3rem;
         margin-top: 2rem;
         font-size: 2rem;
-        width: 80rem;
+        width: 80%;
     }
 
     h1.nome-contato {
         font-size: 4rem;
-    }
-
-    footer {
-        width: 86rem;
     }
 
     footer>p {
